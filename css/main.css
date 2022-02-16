@@ -7,6 +7,16 @@
   margin:0;
   padding:0;
 }
+:root{
+  --primarycolor:#7900FF;
+  --pink:#B91646;
+  --white:#FFFFFF;
+  --black:#000000;
+  --gray:#8991a5;
+  --yellow:#FFBD35;
+  --red:#DA1212;
+  --shadowcolor:rgba(0,0,0,0.2);
+}
 html{
   font-size:62.5%;
   background-color:#e0e2e8;
