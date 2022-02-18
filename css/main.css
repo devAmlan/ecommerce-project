@@ -4,6 +4,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 @import '../pages/home/home.css';
 @import '../pages/auth/auth.css';
+@import '../pages/product/product.css';
 *{
   margin:0;
   padding:0;
@@ -16,6 +17,7 @@
   --gray:#8991a5;
   --grey:#DCDCDC;
   --yellow:#FFBD35;
+  --light-yellow:#ffb41fa9;
   --red:#DA1212;
   --shadowcolor:rgba(0,0,0,0.2);
   --shadowcolor1:rgba(60, 64, 67, 0.15);
