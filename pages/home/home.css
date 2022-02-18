@@ -120,8 +120,8 @@
   align-items:center;
   flex-wrap:wrap;
 }
-.product{
-  width:30rem;
+.featured_products .product{
+  width:29rem;
   height:40rem;
   background-color:var(--white);
   margin:1rem;
@@ -129,6 +129,17 @@
   box-shadow: 0 4px 8px 0 var(--shadowcolor);
   border-radius:8px;
   position: relative;
+}
+.featured_products .product_name{
+  width:200px;
+  height:50px;
+  text-align:left;
+  margin-left:2rem;
+  margin-top:1rem;
+  font-size:2rem;
+}
+.featured_products .product_name h3{
+  font-size:0.8em;
 }
 .addwishlist{
   position:absolute;
@@ -142,11 +153,11 @@
   color:var(--pink);
 }
 
-.product h3{
+/* .featured_products .product h3{
   font-size:1.8rem;
   text-align:left;
   margin:1rem 2rem;
-}
+} */
 .product_image{
   max-inline-size:100%;
   block-size:auto;
