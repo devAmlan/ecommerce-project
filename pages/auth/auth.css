@@ -1,0 +1,79 @@
+.authbox{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:7rem;
+}
+.authbox form{
+   width:30rem;
+   padding:1rem;
+   border:none;
+   box-shadow:0px 1px 2px 0px   var(--shadowcolor),
+              0px 2px 6px 2px var(--shadowcolor1);
+   border-radius:1rem;
+}
+.authbox h3{
+    font-size:2.5rem;
+    margin:1.5rem;
+    text-align:center;
+}
+.authbox p{
+    font-size:1.7rem;
+    text-align:center;
+    margin:1rem;
+}
+.user-input{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:5px;
+}
+.authbox label{
+    font-size:1.5rem;
+    color:var(--primarycolor);
+    margin-left:1rem;
+}
+.user-input input{
+    width:90%;
+    height:3rem;
+    font-size:1.6rem;
+    outline:none;
+    border-radius:4px;
+    padding-left:8px;
+    border:1.5px solid var(--grey);
+}
+.user-input input:focus{
+    border:1.5px solid var(--primarycolor);
+}
+.term-input{
+    margin:10px 5px;
+    font-size:18px;
+    text-align:center;
+}
+.term-input label{
+    margin:0;
+    font-size:1.6rem;
+    color:var(--black);
+}
+.user-input button{
+    width:95%;
+    background-color:var(--primarycolor);
+    height:3.5rem;
+    border:2px solid var(--primarycolor);
+    font-size:1.8rem;
+    border-radius:7px;
+    cursor: pointer;
+    color:var(--white);
+} 
+
+@media only screen and (max-width: 600px) {
+    .authbox form{
+      width:25rem;
+    }
+    .user-input input{
+        width:90%;
+        height:2.7rem;
+    }
+}
