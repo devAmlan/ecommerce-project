@@ -27,13 +27,12 @@
   text-align:left;
   margin-top:2rem;
 }
-.filter input{
+.filter_input{
   margin-bottom:7px;
-  color: var(--pink);
 }
-.filter label{
+.filter_label{
   font-size:1.7rem;
-  margin-top:1rem;
+  color:var(--primarycolor);
 }
 .sort_filter{
   text-align:left;

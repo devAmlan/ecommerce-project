@@ -19,8 +19,8 @@
   --yellow:#FFBD35;
   --light-yellow:#ffb41fa9;
   --red:#DA1212;
-  --shadowcolor:rgba(0,0,0,0.2);
-  --shadowcolor1:rgba(60, 64, 67, 0.15);
+  --shadowcolor:#00000033;
+  --shadowcolor1:#3c404326;
 }
 html{
   font-size:62.5%;
