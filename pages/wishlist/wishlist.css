@@ -1,0 +1,19 @@
+.wishlist_page h3{
+    margin:3rem 1rem;
+}
+.whilist_products{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.whilist_products .product{
+    width:27rem;
+    height:39rem;
+    background-color:var(--white);
+    margin:1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 var(--shadowcolor);
+    border-radius:8px;
+    position: relative;
+}

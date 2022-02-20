@@ -5,6 +5,8 @@
 @import '../pages/home/home.css';
 @import '../pages/auth/auth.css';
 @import '../pages/product/product.css';
+@import '../pages/wishlist/wishlist.css';
+@import '../pages/cart/cart.css';
 *{
   margin:0;
   padding:0;
