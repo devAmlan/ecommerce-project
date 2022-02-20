@@ -16,15 +16,19 @@
         placeholder="Search"/>
         <nav class="header_nav">
         <ul>
-        <button class="login_nav">Log in</button>
-        <li class="wishlist_nav">
-        <i class="fa-solid fa-heart"></i>
-        <div class="badge">2</div>
-       </li>
-        <li class="cart_nav">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <div class="badge">1</div>
-        </li>
+        <a href="login.html"><button class="login_nav">Log in</button></a>
+        <a href="../wishlist/wishlist.html">
+            <li class="wishlist_nav">
+                <i class="fa-solid fa-heart"></i>
+                <div class="badge">2</div>
+               </li>
+        </a>
+        <a href="../cart/cart.html">
+            <li class="cart_nav">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="badge">1</div>
+            </li>
+        </a>
         </ul>
         </nav>
     </div>
@@ -53,17 +57,23 @@
         </div>
 
         <div class="bottom-bar">
+            <a href="../../index.html">
+                <div class="menu">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </div>
+            </a>
+           <a href="../product/product.html">
             <div class="menu">
-            <i class="fa-solid fa-house"></i>
-            <p>Home</p>
+                <i class="fa-solid fa-store"></i>
+                <p>Shop</p>
             </div>
-           <div class="menu">
-            <i class="fa-solid fa-store"></i>
-            <p>Shop</p>
-           </div>
-           <div class="menu">
-            <i class="fa-solid fa-user"></i>
-            <p>Profile</p>
-        </div>
+           </a>
+           <a href="login.html">
+            <div class="menu">
+                <i class="fa-solid fa-user"></i>
+                <p>Profile</p>
+            </div>
+           </a>
 </body>
 </html>
